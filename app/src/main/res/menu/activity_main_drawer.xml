@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/cse_logo"
+            android:title="Cse" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ict_fun"
+            android:title="Ict" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/te_fun"
+            android:title="Te" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/about"
+                android:title="About Me" />
+
+        </menu>
+    </item>
+
+</menu>
